@@ -1,0 +1,17 @@
+Package: jsonfeedr
+Type: Package
+Title: Fetches JSON feed data
+Version: 0.1.0
+Author: Jason Becker
+Maintainer: Jason Becker <jason@jbecker.co>
+Description: Fetches JSON feeds for use in R.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    jsonlite,
+    curl,
+    openssl
+Suggests: testthat,
+    covr
+RoxygenNote: 6.0.1
